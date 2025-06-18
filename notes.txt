@@ -4,8 +4,7 @@
 youre using a command prompt)
 4)type npm create vite@latest my-react-app -- --template
 4-a) "my-react-app" is just the name of the folder
-5) cd my-react-app
-6) npm install 
+5) cd my-react-app - change "my-react-app" with the name that you use
 6-a)dont share or move the nodemodules folder (just trust me)
-7) npm run dev
-8) to start your server at the beggining of the class repeat step 5 and 7
+7) npm run dev.
+8) to start your server at the beggining of the class repeat step 5 and 7.

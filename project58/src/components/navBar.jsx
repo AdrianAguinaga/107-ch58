@@ -2,7 +2,7 @@ import "./navBar.css";
 
 function Navbar(){
     return(
-        <div> Menu goes here</div>
+        <div>Menu goes here</div>
     );
 }
 
