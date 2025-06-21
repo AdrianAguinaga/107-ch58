@@ -26,12 +26,12 @@ function QtyPicker() {
     }
   return (
     <div className="qty-picker">
-      <button disabled={quantity===1} onClick={decrement}>-</button>
+      <button className="btn btn-sm btn-secundary" disabled={quantity===1} onClick={decrement}>-</button>
       {/* = this is an assigment
           == this is a comparative
           === this also compare values but it also returns a false or true value */}
       <label>{quantity}</label>
-      <button onClick={increment}>+</button>
+      <button className="btn btn-sm btn-secundary" onClick={increment}>+</button>
     </div>
   );
 }
