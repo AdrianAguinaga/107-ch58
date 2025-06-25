@@ -1,25 +1,26 @@
 let catalog = [
     {
-        "title":"orange",
+        "title":"Chocolate",
         "category":"fruit",
         "price": 15, 
-        "image":"picture",
+        "image":"1.webp", //this is a picture, you can use a link to a real image
         "_id":"1" //the id should be unique, (it cannot be repeated)
     },
     {
-        "title":"chocolate",
+        "title":"milk",
         "category":"candy",
         "price": 15, 
-        "image":"picture",
+        "image":"milk.webp", //this is a picture, you can use a link to a real image
         "_id":"2" //the id should be unique, (it cannot be repeated)
     },
     {
-        "title":"milk",
+        "title":"orange",
         "category":"dairy",
         "price": 15, 
-        "image":"picture",
+        "image":"oranges.webp", //this is a picture, you can use a link to a real image
         "_id":"3" //the id should be unique, (it cannot be repeated)
     },
+  
 ];
 
 class DataService {

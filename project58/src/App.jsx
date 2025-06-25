@@ -8,12 +8,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 function App() {  
   return (
       <div className="App">
-        <Navbar/>
-        <h1>Hello from REACT</h1>
-        <Catalog/>
-       
-        <Footer/>     
-
+        <Navbar/>      
+        <Catalog/>       
+        <Footer/>   
       </div>    
   );
 }
